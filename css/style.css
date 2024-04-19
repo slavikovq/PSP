@@ -248,7 +248,7 @@ img{
     padding: 5px;
 }
 
-.mtt{
+#mtt{
     width: auto;
     height: auto;
     padding: 30px;
@@ -285,7 +285,6 @@ img{
 
 .at-title{
     padding-top: 50px;
-    
     text-align: center;
     font-size: 30px;
     margin-bottom: 50px;
@@ -303,3 +302,4 @@ img{
     text-align: center;
     width: 25%;
 }
+
