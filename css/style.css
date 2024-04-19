@@ -35,12 +35,11 @@
 #buttons:hover{
     color: goldenrod;
     transition: 0.4s ease;
-    font-size: 2rem;
 }
 
 
 #bg{
-    background-image: url("./bgjpg.jpg");
+    background-image: url("../img/bgjpg.jpg");
     width: 100%;
     min-height: 600px;
     background-attachment: fixed;
@@ -139,21 +138,74 @@ img{
     text-align: center;
 }
 
-#plus {
+#images{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    padding: 50px;
 }
 
-#plus > div {
-    margin: 0 10px;
+#flexibility{
+    padding-right: 20px;
+    position: relative;
+    text-align: center;
 }
 
-#plus > div:nth-child(2) {
-    flex: 0 0 auto;
-    margin: 0; 
+#efficiency{
+    position: relative;
+    text-align: center;
 }
 
-#plus > div img {
-    max-width: 100%;
+#LoC{
+    padding-left: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.text-center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 4px 2px 4px #000000;
+}
+
+#AV-title{
+    font-size: 1.2rem;
+}
+
+.features2{
+    width: auto;
     height: auto;
+    background: #fff;
+    padding: 30px;
+    
+}
+.features-title{
+    color: rgb(244,212,124);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.features-cards{
+    display: flex;
+    justify-content: space-around;
+    background: #f0f0f0;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 5px;
+}
+.card{
+    text-align: center;
+    width: 33.33%;
+}
+.card h2{
+    font-size: 4rem;
+}
+#img{
+    width: 50px;
+    padding: 5px;
 }
