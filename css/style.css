@@ -198,14 +198,108 @@ img{
     margin: 0 50px 0 50px;
     border-radius: 5px;
 }
-.card{
+.features-card{
     text-align: center;
     width: 33.33%;
 }
-.card h2{
+.features-card h2{
     font-size: 4rem;
 }
-#img{
+#img-features{
     width: 50px;
     padding: 5px;
+}
+
+.application{
+    width: auto;
+    height: auto;
+    background-color: rgba(218, 165, 32, 0.233);
+    padding: 30px;
+}
+
+.application-title{
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.application-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 5px;
+}
+
+.application-card{
+    text-align: center;
+    width: 25%;
+}
+
+.application-card p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#img-application{
+    width: 50px;
+    padding: 5px;
+}
+
+.mtt{
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+.mtt-title{
+    padding-top: 50px;
+    color: rgb(244,212,124);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.mtt-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 5px;
+}
+
+.mtt-card{
+    text-align: center;
+    width: 25%;
+}
+
+.at{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    background-color: rgba(218, 165, 32, 0.233);
+
+}
+
+.at-title{
+    padding-top: 50px;
+    
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.at-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 5px;
+}
+
+.at-card{
+    text-align: center;
+    width: 25%;
 }
