@@ -7,11 +7,13 @@ $phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$mailheader = "From:".$name."<".$email.">\r\n";
+$mailheader = "Od: \r\n Jméno: $name \r\n Adresa: $adress \r\n Email: $email \r\n Telefonní číslo: $phone";
 
 $recipient = "bara.slavikova@sdt-me.cz";
 
-mail($recipient, $subject, $message, $mailheader)
+$subject = $subject;
+
+mail($recipient, $subject, $mailheader, $message)
 or die("Error!");
 
 echo"message send";
