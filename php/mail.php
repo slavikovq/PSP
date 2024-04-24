@@ -1,4 +1,5 @@
 <?php
+header('Content-type: text/plain; charset=utf-8');
 
 $name = $_POST['name'];
 $adress = $_POST['adress'];
@@ -16,6 +17,5 @@ $subject = $subject;
 mail($recipient, $subject, $mailheader, $message)
 or die("Error!");
 
-echo"message send";
-
+header("Location: redirect-page.html");
 ?>
