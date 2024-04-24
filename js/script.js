@@ -8,14 +8,12 @@ const btns3 = document.getElementById("btns3");
 const btns4 = document.getElementById("btns4");
 const btns5 = document.getElementById("btns5");
 const btns6 = document.getElementById("btns6");
-
+const scrollBtn = document.getElementById("scrollToTopBtn")
 let visible = false;
 
 window.onscroll = () => {
     scrollFunction();
 };
-
-const scrollBtn = document.getElementById("scrollToTopBtn")
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
