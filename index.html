@@ -36,7 +36,7 @@
     <div class="title">
       <h1>PSP TECHNOLOGIES</h1>
       <h3>LASER CLASS PERFORMANCE</h3>
-      <a href="index.html#Contact" style="text-decoration: none"><button id="buttonContact">Contact</button></a>
+      <a href="index.html#contact" style="text-decoration: none" id="buttonContact">Contact</a>
     </div>
   </section>
 
@@ -57,7 +57,7 @@
         ambitions. </p>
     </div>
     <br />
-    <a href="index.html#Contact" style="text-decoration: none"><button id="buttonContact">Get in touch</button></a>
+    <a href="index.html#Contact" style="text-decoration: none" id="GIT">Get in touch</a>
   </section>
 
   <!--    PRODUCT    -->
@@ -261,15 +261,15 @@
             <div class="dinput">
               <div class="input">
                 <p>Email *</p>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required="true">
               </div>
 
               <div class="input">
                 <p>Phone</p>
-                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" pattern="\+?[0-9]+(?: ?[0-9]+)*" title="Example: +xxx xxx xxx xxx">
               </div>
-
             </div>
+
             <div class="input">
               <p>Subject</p>
               <input type="text" name="subject" id="subject" placeholder="Type the subject">
@@ -307,6 +307,7 @@
   </section>
 
   </section>
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

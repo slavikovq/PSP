@@ -43,7 +43,6 @@ img{
   padding: 10px;
   border: 0;
   background-color: white;
-  cursor: pointer;
   display: flex;
   margin: auto;
 }
@@ -97,11 +96,11 @@ img{
   font-family: var(--font1);
 }
 
+
 #buttonContact {
   text-decoration: none;
   color: white;
   background-color: black;
-  text-align: center;
   display: flex;
   margin: auto;
   border: none;
@@ -111,11 +110,11 @@ img{
   font-size: 17px;
   font-family: var(--font1);
   transition: 0.4s ease;
+  width: 60px;
 }
 
 #buttonContact:hover {
   color: goldenrod;
-  box-shadow: 0px 0px 15px 0px rgba(218, 165, 32, 0.822); 
 }
 /* -- ABOUT US --*/
 
@@ -123,7 +122,6 @@ img{
   display: flex;
   margin: auto;
   transition: 0.5s ease;
-  cursor:pointer;
 }
 
 #about-image:hover {
@@ -159,6 +157,26 @@ img{
   padding: 30px;
 }
 
+#GIT {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: var(--font1);
+  transition: 0.4s ease;
+  width: 100px;
+}
+
+#GIT:hover {
+  color: goldenrod;
+}
+
 /* -- PRODUCT --*/
 
 #product {
@@ -168,7 +186,7 @@ img{
 
 #product img{
   transition: 0.5s ease;
-  cursor:pointer;
+
 }
 
 #product img:hover{
@@ -237,7 +255,6 @@ img{
   background: #f0f0f0;
   border-radius: 5px;
   transition: 0.5s ease;
-  cursor:pointer;
 }
 
 .av-card:hover {
@@ -440,7 +457,6 @@ img{
 
 #mtt img{
     transition: 0.5s ease;
-    cursor:pointer;
 }
 
 #mtt img:hover{
@@ -495,7 +511,6 @@ img{
 
 .at img{
     transition: 0.5s ease;
-    cursor:pointer;
 }
 
 .at img:hover{
@@ -588,6 +603,14 @@ img{
   color: var(--white);
   font-family: var(--font1);
   font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.contact-form-box button.btn:hover{
+  color: goldenrod;
 }
 
 
+/* -- RESPONSIVITY -- */
