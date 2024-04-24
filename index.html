@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Material Engineering | PSP TECHNOLOGIES</title>
   <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+  <script src="https://kit.fontawesome.com/7b9439f124.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
-
 <body>
   <!--    HOME    -->
   <section id="Home" style="padding-bottom: 50px">
@@ -16,7 +15,12 @@
     <!--    header    -->
 
     <header>
-      <img src="./img/logo-edited.png" alt="" srcset="" id="logo" />
+      <div class="logo">
+        <img src="./img/logo-edited.png" alt="" srcset="" id="logo" />
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-bars" id="openNav"></i>
+      </div>
     </header>
 
     <!--    navbar    -->
@@ -27,6 +31,17 @@
       <li><a href="index.html#features" id="buttons">Features</a></li>
       <li><a href="index.html#mtt" id="buttons">Team</a></li>
       <li><a href="index.html#contact" id="buttons">Contact</a></li>
+    </nav>
+    <nav class="mobile" id="mNav">
+      <i class="fa-solid fa-xmark" id="closeNav"></i>
+      <ul>
+        <li><a href="index.html#Home" class="colored" id="btns1">Home</a></li>
+        <li><a href="index.html#about" id="btns2">About</a></li>
+        <li><a href="index.html#product" id="btns3">Product</a></li>
+        <li><a href="index.html#features" id="btns4">Features</a></li>
+        <li><a href="index.html#mtt" id="btns5">Team</a></li>
+        <li><a href="index.html#contact" id="btns6">Contact</a></li>
+      </ul>
     </nav>
 
     <!--    parallax scrolling    -->
@@ -216,7 +231,7 @@
       <div class="at-card">
         <img src="./img/BrajerJ.webp" alt="" srcset="">
         <h2>JAN BRAJER</h2>
-        <p>Advisor, LSP exper</p>
+        <p>Advisor, LSP expert</p>
       </div>
       <div class="at-card">
         <img src="./img/PlesekJ.webp" alt="" srcset="">
