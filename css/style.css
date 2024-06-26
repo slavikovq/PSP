@@ -271,8 +271,7 @@ header{
   font-size: 40px;
   color: var(--textyellow);
   font-weight: 500;
-  margin-top: 9rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 #product #product-text{
@@ -283,19 +282,74 @@ header{
 
 #product #product-image{
   width: 50%;
+  padding-top: 100px;
 }
 
 #product #product-text p{
-  width: 470px;
+  width: 650px;
   font-size: 15px;
   line-height: 1.875em;
   font-family: var(--font1);
   margin-bottom: 2rem;
 }
 
+#product-text h3{
+  font-family: var(--font1);
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+}
+
 #product-text-p{
   display: inline-block;
 }
+
+/* -- KEY FEATURES --*/
+
+.keyfeature {
+  width: auto;
+  height: auto;
+  background-color: rgba(218, 165, 32, 0.233);
+  padding: 30px;
+}
+
+.keyfeature-title {
+
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--font2);
+  font-weight: 500;
+}
+
+.keyfeature-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 0 50px 0 50px;
+  border-radius: 5px;
+}
+
+.keyfeature-card {
+  text-align: center;
+  width: 20%;
+ 
+}
+
+.keyfeature-card h3 {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: var(--font2);
+  font-weight: 460;
+  padding: 10px;
+}
+
+.keyfeature-card p {
+  font-size: 15px;
+  font-family: var(--font1);
+  font-weight: 460;
+}
+
 
 /* -- ADDED VALUE --*/
 
@@ -389,6 +443,53 @@ header{
   height: auto;
   position: relative;
   filter: brightness(50%);
+}
+
+/* SERVICE */
+#service{
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(218, 165, 32, 0.233);
+}
+
+.service-text{
+  display: inline-block;
+  padding: 30px;
+  font-family: var(--font1);
+  line-height: 30px;
+  width: 750px;
+}
+
+.service-text h4{
+  display: inline-block;
+  padding: 15px;
+  font-family: var(--font1);
+  line-height: 1rem;
+}
+
+.service-title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: var(--font2);
+  font-weight: 500;
+}
+
+#service-button{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: var(--font1);
+  transition: 0.4s ease;
+  width: 60px;
 }
 
 /* -- FEATURES -- */
@@ -687,6 +788,19 @@ header{
   color: goldenrod;
 }
 
+/* -- FOOTER -- */
+
+#footer{
+  text-align: center;
+  padding: 30px;
+}
+
+#footer p{
+  font-family: var(--font1);
+  font-weight: 600;
+}
+
+
 
 /* -- RESPONSIVITY -- */
 @media screen  and (max-width: 1438px){
@@ -705,7 +819,7 @@ header{
     background-repeat: no-repeat;
     justify-content: center;
   }
-  #product-text-p p{
+  #product-text-p p, h3{
     color: var(--white);
   }
 }
