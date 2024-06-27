@@ -446,10 +446,19 @@ header{
 }
 
 #img-av2 {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   position: relative;
+  filter: brightness(70%);
 }
+
+#img-av3 {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  filter: brightness(90%);
+}
+
 
 /* SERVICE */
 #service{
