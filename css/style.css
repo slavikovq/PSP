@@ -445,6 +445,12 @@ header{
   filter: brightness(50%);
 }
 
+#img-av2 {
+  max-width: 70%;
+  height: auto;
+  position: relative;
+}
+
 /* SERVICE */
 #service{
   text-align: center;
