@@ -10,7 +10,7 @@ $message = $_POST['message'];
 
 $mailheader = "Od: \r\n Jméno: $name \r\n Adresa: $adress \r\n Email: $email \r\n Telefonní číslo: $phone";
 
-$recipient = "bara.slavikova@sdt-me.cz";
+$recipient = "tomas.slavik@plasmapeening.com";
 
 $subject = $subject;
 

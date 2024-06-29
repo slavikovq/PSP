@@ -8,6 +8,7 @@ const btns3 = document.getElementById("btns3");
 const btns4 = document.getElementById("btns4");
 const btns5 = document.getElementById("btns5");
 const btns6 = document.getElementById("btns6");
+const btns7 = document.getElementById("btns7");
 const scrollBtn = document.getElementById("scrollToTopBtn")
 let visible = false;
 
@@ -57,6 +58,12 @@ btns6.onclick = () => {
         visible = false
     }
 }
+btns7.onclick = () => {
+    if(visible){
+        mobileNavbar.style.display = "none";
+        visible = false
+    }
+}
 openNav.onclick = () => {
     if (!visible){
         mobileNavbar.style.display = "grid";
@@ -70,4 +77,3 @@ closeNav.onclick = () => {
         visible = false
     }
 }
-
