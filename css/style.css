@@ -31,6 +31,12 @@
   color: #000;
 }
 
+.unfix-ios-bg {
+  @supports (-webkit-touch-callout: none) {
+      background-attachment: initial !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -272,6 +278,7 @@ header{
   font-weight: 500;
   margin-top: 3.4rem;
   margin-bottom: 2rem;
+  line-height: 3rem;
 }
 #product-text{
   line-height: 30px;
