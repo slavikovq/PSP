@@ -31,12 +31,6 @@
   color: #000;
 }
 
-.unfix-ios-bg {
-  @supports (-webkit-touch-callout: none) {
-      background-attachment: initial !important;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +69,13 @@ img{
   margin: auto;
   width: auto;
 }
+
+@supports (-webkit-touch-callout: none) {
+  #logo {
+    background-attachment: initial !important;
+  }
+}
+
 header{
   justify-content: center;
   display: flex;
