@@ -920,6 +920,10 @@ header{
   }
 }
 @media screen  and (max-width: 940px){
+  #bg{
+    background-attachment: unset;
+  }
+
   .mtt-cards{
     gap: 20px;
     display: grid;
