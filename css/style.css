@@ -70,12 +70,6 @@ img{
   width: auto;
 }
 
-@supports (-webkit-touch-callout: none) {
-  #logo {
-    background-attachment: initial !important;
-  }
-}
-
 header{
   justify-content: center;
   display: flex;
@@ -920,10 +914,14 @@ header{
   }
 }
 @media screen  and (max-width: 940px){
-  #bg{
-    background-attachment: unset;
-    min-height: 300px;
+  
+  @supports (-webkit-touch-callout: none) {
+    #bg{
+      background-attachment: unset;
+      min-height: 300px;
+    }
   }
+
 
   .mtt-cards{
     gap: 20px;
