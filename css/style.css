@@ -922,6 +922,7 @@ header{
 @media screen  and (max-width: 940px){
   #bg{
     background-attachment: unset;
+    min-height: 300px;
   }
 
   .mtt-cards{
