@@ -344,6 +344,14 @@ header{
   justify-content: center;
 }
 
+.features-img-main{
+  transition: transform 0.5s ease; 
+}
+
+.features-img-main:hover{
+  transform: scale(1.1);
+}
+
 .features-img{
   justify-content: center;
   display: flex;
