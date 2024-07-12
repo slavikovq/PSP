@@ -152,7 +152,7 @@ header{
 /* -- HOME PAGE --*/
 
 #bg {
-  background-image: url("../img/bgjpg.jpg");
+  background-image: url("../img/bgjpg.png");
   width: 100%;
   min-height: 560px;
   background-attachment: fixed;
@@ -749,7 +749,7 @@ header{
 /* -- CONTACT US -- */
 
 #contact{
-  background-image: url(../img/contactUs.jpg);
+  background-image: url(../img/contactUs.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
