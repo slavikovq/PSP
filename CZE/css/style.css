@@ -145,10 +145,6 @@ header{
   animation: nav-animation 1s forwards;
 }
 
-
-/* LANGUAGE */
-
-
 /* -- HOME PAGE --*/
 
 #bg {
@@ -749,7 +745,7 @@ header{
 /* -- CONTACT US -- */
 
 #contact{
-  background-image: url(../img/contactUs.jpg);
+  background-image: url(../img/contactUs.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
