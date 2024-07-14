@@ -59,6 +59,8 @@ img{
   z-index: 500;
   animation: loadTransition .7s;;
 }
+
+
 /* -- NAVBAR --*/
 
 #logo {
@@ -144,9 +146,6 @@ header{
 .open-animation{
   animation: nav-animation 1s forwards;
 }
-
-
-/* LANGUAGE */
 
 
 /* -- HOME PAGE --*/
