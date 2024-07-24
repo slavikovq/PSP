@@ -77,3 +77,16 @@ closeNav.onclick = () => {
         visible = false
     }
 }
+
+
+/* FORM */
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+
+    if (name.trim() === "" || email.trim() === "") {
+        alert("Name and Email must be filled out");
+        event.preventDefault(); 
+    }
+});

@@ -309,6 +309,12 @@ header{
 #product-text-p{
   display: inline-block;
 }
+
+#kontrukce{
+  max-width: 800px;
+  width: 100%;
+}
+
 .keyfeature {
   width: auto;
   height: auto;
@@ -841,30 +847,50 @@ header{
 }
 
 /* FOOTER */
-#footer{
-  justify-content: center;
-  display: grid;
+#footer {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  position: relative;  /* Needed for absolute positioning of .footer-content */
   margin: 30px;
 }
-.footer-content{
-  display: grid;
-  justify-content: center;
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;    /* Center children horizontally */
+  position: absolute;     /* Absolutely position to center within #footer */
+  left: 50%;
+  transform: translateX(-50%);
 }
-#img1{
+
+#img1 {
   width: 200px;
   margin-bottom: 10px;
 }
-#img2{
+
+#img2 {
   width: 100px;
   margin-bottom: 10px;
 }
-#footerC{
-  display: flex;
-  justify-content: center;
+
+#footerC {
   font-family: var(--font1);
   font-weight: 600;
 }
 
+@media (max-width: 734px) {
+  #footer {
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+  .footer-content {
+    position: static;     
+    transform: none;     
+    margin-top: 10px;      
+  }
+
+}
 /* -- RESPONSIVITY -- */
 @media screen  and (max-width: 1025px){
   #about img{
@@ -1014,6 +1040,8 @@ header{
   .keyfeature-content{
     width: auto;
   }
+
+
 }
 @media screen  and (max-width: 610px){
   .title h1{
