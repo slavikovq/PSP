@@ -2,7 +2,7 @@
 header('Content-type: text/plain; charset=utf-8');
 
 if (empty($_POST['name']) || empty($_POST['email'])) {
-    die("Error: Name and Email are required.");
+    die("Error: Jméno a email jsou požadované.");
 }
 
 $name = $_POST['name'];
@@ -19,6 +19,6 @@ $recipient = "tomas.slavik@plasmapeening.com, denisa.trochtova@plasmapeening.com
 if (mail($recipient, $subject, $mailheader, $message)) {
     header("Location: redirect-page.html");
 } else {
-    die("Error: Unable to send email.");
+    die("Error: Nebylo možné email odeslat.");
 }
 ?>
