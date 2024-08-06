@@ -430,7 +430,6 @@ header{
   height: auto;
   margin: 15px;
   font-family: var(--font1);
-  display: grid;
   justify-content: center;
 }
 .textbox h3{
@@ -946,6 +945,10 @@ header{
   .keyfeature-box {
     display: grid;
     justify-content: center;
+  }
+
+  .textbox{
+    display: grid;
   }
 }
 @media screen  and (max-width: 940px){
